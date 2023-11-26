@@ -1,0 +1,12 @@
+<template>
+  <template if:true={flag}>
+    <h1>HOLY COW</h1>
+  </template>
+    <c-my-custom-type-datatable
+      key-field="Id"
+      data={data}
+      columns={columns}
+      show-row-number-column
+    >
+    </c-my-custom-type-datatable>
+  </template>
